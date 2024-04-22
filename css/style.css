@@ -1,0 +1,81 @@
+
+/*--------------------------- Slider Style --------------------------*/
+/* Start Of Films */
+
+
+i , img {
+cursor: pointer;
+}
+h1 , span{
+    font-family: 'Sevillana', cursive;
+}
+
+.img-slider .item{
+    border: .2188rem solid white;
+    height: 30rem;
+    position: relative;
+
+
+}
+
+.img-slider .item  img{
+    width: 100%;
+    height: 100%;
+}
+.img-slider .item .film-title {
+    position: absolute;
+    top: 75%;
+    margin: 0 1.5rem;
+    padding: .3125rem;
+
+}
+
+/* End Of Films */
+
+/* Start Of Light Box*/
+.light-box{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    
+}
+.light-box .main-img{
+    background-image: url("../img/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    height: 30rem;
+    width: 40rem;
+}
+
+/* End Of Light Box */
+
+
+
+/* ----------------------------------------------------------------------------------- */
+
+/* --------------------------------- Log In and Sign Up Page ------------------------------------- */
+.login-page , .regestration-page{
+    background-image: url("../img/poster.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.login-page section .container , .regestration-page section .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1.25rem;
+
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+

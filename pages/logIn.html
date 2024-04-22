@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/normlize.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="login-page">
+    <section class="vh-100  text-center text-white d-flex justify-content-center align-items-center">
+        <div class="container w-75 rounded-4">
+        <div class="mx-auto custombg boxShzdo p-5  ">
+            <h1 class="mx-auto fw-bolder display-5">Smart Login System</h1>
+        <input class="my-3 form-control" id="userEmail" type="email" placeholder="Enter your email">
+        <input class="my-3 form-control" id="userPassWord" type="password" placeholder="Enter your password">
+        <p id="validitionEmpity" class="d-none text-danger text-center">All inputs is required</p>
+        <p id="validitionincorrect" class="d-none text-danger text-center">incorrect email or password</p>
+        <button id="btnLogin" class="my-3 btn btn-outline-info "><a href="#" class="text-decoration-none px-5">Login</a></button>
+        <p class="signUpLink">
+            Don't have an account? 
+            <a class="signUpLink text-center text-white" href="./regestration.html">Sign Up</a>
+        </p>
+        </div>
+        </div>
+    </section>
+
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

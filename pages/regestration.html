@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/normlize.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="regestration-page">
+  
+  <section class="vh-100 text-center text-white   d-flex justify-content-center align-items-center">
+    <div class="container rounded-4 w-75 ">
+      <div class=" px-5 ">
+        <h1 class="mx-auto fw-bolder display-5">Smart Login System</h1>
+
+        <input class="my-3 form-control" id="userNameSignUp" type="text" placeholder="Enter your name">
+        <p id="wrongUserName" class="d-none text-danger">
+            <i class="fa-solid fa-ban"></i>
+            Please enter a valid  user name. Start UperCase</p>
+
+
+        <input class="my-3 form-control" id="userEmailSignINUp" type="email" placeholder="Enter your email">
+        <p id="dublicatedmail" class="d-none text-danger">
+            <i class="fa-solid fa-ban"></i>
+            email already exists try another email</p>
+        <p id="wrongEmail" class="d-none text-danger">
+            <i class="fa-solid fa-ban"></i>
+            Please enter a valid email address. "example@email.com"</p>
+
+            <input class="my-3 form-control" id="userPassWordSignINUp" type="password" placeholder="Enter your password">
+            <p id="wrongPassword" class="d-none text-danger">
+                <i class="fa-solid fa-ban"></i>
+                Minimum have 1 (characters and Numbers and special Char)</p>
+
+        <button id="signUpBtn" class="my-3 btn btn-outline-info px-5">Sign Up</button>
+        <p id="successMessage" class="d-none text-success text-center">
+            success
+            <i class="fa-regular fa-circle-check"></i>
+        </p>
+
+        <p class="signUpLink">
+            You have an account? 
+            <a class="signUpLink text-white " href="./logIn.html">Sign In</a> </p>
+        </div>
+        </div>
+    </section>
+
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/sign.js"></script>
+</body>
+</html>
